@@ -92,6 +92,19 @@ class Taf_freeform_templates_ft extends EE_Fieldtype {
 	}
 	
 	// --------------------------------------------------------------------
+	
+	/**
+	* Displays the field in Low Variables
+	*
+	* @param	string
+	* @return	string
+	*/
+	function display_var_field($var_data)
+	{
+		return $this->display_field($var_data);
+	}
+
+	// --------------------------------------------------------------------
 
 }
 
