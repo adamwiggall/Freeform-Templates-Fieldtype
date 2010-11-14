@@ -8,4 +8,4 @@ To install this fieldtype,
 
 1. Place the taf_freeform_templates directory into ./system/expressionengine/third_party/ directory. 
 2. Go to the EE Control Panel (CP) and select Add Ons -> Fieldtypes, then click **Install** in the **Action** column alongside the name TAF Freeform Templates.  
-3. The templates can now be selected as either a Fieldtype or from within Low Variables.
+3. The templates can now be selected as either a Fieldtype or from within [Low Variables](http://loweblog.com/software/low-variables/ "See Low Variables").
