@@ -1,4 +1,4 @@
-# Freeform Templates Fieldtype
+# Freeform Templates Fieldtype for ExpressionEngine 2.1
 
 ### Allows you to select from your Freeform Templates (used for emails). Can be used in a Matrix Fieldtype, Low Variables or as a standalone.
 
