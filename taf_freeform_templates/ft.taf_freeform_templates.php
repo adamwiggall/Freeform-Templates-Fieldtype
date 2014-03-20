@@ -63,7 +63,7 @@ class Taf_freeform_templates_ft extends EE_Fieldtype {
 		$this->EE->load->helper('form');
 
 		// Get fields from DB
-		$query = $this->EE->db->query("SELECT template_name AS name, template_label AS label FROM exp_freeform_templates ORDER BY name ASC");
+		$query = $this->EE->db->query("SELECT notification_name AS name, notification_label AS label FROM exp_freeform_notification_templates ORDER BY name ASC");
 
 		// Generate drop down
 		$options = array('' => 'Please Select...');
@@ -87,12 +87,12 @@ class Taf_freeform_templates_ft extends EE_Fieldtype {
 	* @return	string
 	*/
 	function display_cell($cell_data)
-	{	
+	{
 		return $this->display_field($cell_data, TRUE);
 	}
-	
+
 	// --------------------------------------------------------------------
-	
+
 	/**
 	* Displays the field in Low Variables
 	*

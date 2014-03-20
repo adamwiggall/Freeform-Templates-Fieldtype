@@ -12,7 +12,7 @@
 if ( ! defined('TAF_FFT_NAME'))
 {
 	define('TAF_FFT_NAME',         'TAF Freeform Templates');
-	define('TAF_FFT_VERSION',      '1.0');
+	define('TAF_FFT_VERSION',      '1.1');
 	define('TAF_FFT_DOCS',         'http://github.com/adamwiggall/taf_freeform_templates');
 }
 
