@@ -45,7 +45,7 @@ class Taf_freeform_templates_ft extends EE_Fieldtype {
 	*/
 	function __construct()
 	{
-		parent::EE_Fieldtype();
+		parent::__construct;
 	}
 
 	// --------------------------------------------------------------------
